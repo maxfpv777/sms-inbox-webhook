@@ -17,3 +17,8 @@ communication.
 ## Data handling
 - For development: stores inbound messages in a JSON file
 - Sensitive data should be redacted in logs/screenshots
+
+## Screenshots
+The screenshots below show a development setup where an inbound SMS webhook is received by the server and stored in a simple JSON inbox. URLs/tokens are redacted for security.
+![Server logs](screenshots/logs.png)
+![Inbox output](screenshots/inbox.png)
